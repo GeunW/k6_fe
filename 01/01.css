@@ -1,0 +1,52 @@
+*{
+    border: 1px solid red;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    width: 1200px;
+    margin: auto;
+    height: auto;
+}
+h1{
+    font-size: 50px;
+}
+
+.btn{
+    display: flex;
+    justify-content: end;
+    
+    
+}
+
+button{
+    width: 70px;
+    height: 30px;
+    margin: 5px;
+    background-color: rgb(61, 128, 252);
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 12px;
+    
+}
+
+p{
+    font-size: 20px;
+}
+
+
+
+.lst{
+    display: flex;
+}
+
+ul{
+    list-style: none;
+}
+
+img{
+    
+}
