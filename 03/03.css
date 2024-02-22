@@ -1,0 +1,16 @@
+button{
+    width: 100px;
+    height: 40px;
+    background-color: #005baf;
+    color: #ffffff;
+    border: 0px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: #8a4b04;
+    color: #ffffff;
+    cursor: pointer;
+}

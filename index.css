@@ -11,8 +11,8 @@ main{
 }
 
 header{
-    background-color: #1b1b1b;
-    color: #a7a7a7;
+    background-color: #4280f3;
+    color: #f2faab;
     display: flex;
     justify-content: space-between;
     height: 80px;
@@ -29,7 +29,7 @@ article{
 
 article ul{
     width: 80%;
-    background-color: #e8f354;
+    background-color: #e7f0ff;
     margin-top: 20px;
     list-style: none;
     
@@ -41,5 +41,43 @@ article li{
     display: flex;
     align-items: center;
     padding: 20px;
+
+}
+article a{
+    text-decoration: none;
+}
+
+
+article li:hover{
+    background-color: #eeeb52;
+
+}
+
+article li::after{
+    color: #000000;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+}
+
+section > h1{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+section > div{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px dotted gray;
+    padding: 20px;
+    margin: 10px;
 
 }
