@@ -18,10 +18,9 @@
 
 //함수 작성2 ->
 const handleClick = (n) =>{
-    let msg
+    let msg;
     if(n==1) msg = "안녕하세요";
     else msg = "안녕히가세요";
     document.querySelector("#msgArea").innerHTML = msg;
 
 }
-
