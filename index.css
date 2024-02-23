@@ -82,3 +82,17 @@ section > div{
     margin: 10px;
 
 }
+
+header > div > a{
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    display: inline-flex;
+    padding: 10px;
+    color: #005baf;
+    background-color: #ebe997;
+    border-radius: 5px;
+    width: 40px;
+    justify-content: center;
+}

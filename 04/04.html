@@ -6,14 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>K-디지털6기</title>
     <link rel="stylesheet" href="../index.css">
-    <link rel="stylesheet" href="03.css">
+    <link rel="stylesheet" href="04.css">
+
     <!-- 자바스크립트 위치1 -->
     <!-- <script>
         alert("안녕하세요");
     </script> -->
 
     <!--자바스크립트 링크  -->
-    <script src="03.js"></script>
+    <script src="04.js"></script>
 
 </head>
 
@@ -29,20 +30,23 @@
         </header>
 
         <section>
-            <h1>자바스크립트 함수이해하기</h1>
-            <div id="btArea" class="btGroup">
-                <button onclick="handleClick(1)">버튼1</button>
-                <button onclick="handleClick(2)">버튼2</button>
+            <h1>자바스크립트 주사위 만들기</h1>
+            <div>
+                <div class="img-part">
+                    <div>
+                        <p>player</p>
+                        <img id="dice1" src="./img/1.png" alt="">
+                    </div>
+                    <div>
+                        <p>Computer</p>
+                        <img id="dice2" src="./img/3.png" alt="">
+                    </div>
+                </div>
             </div>
-            <div id="msgArea">
-                메세지 영역
-            </div>
-            <div id="btArea2" class="btGroup">
-
-            </div>
+            <div><button onclick="handleClick()">주사위를 던져주세요.</button></div>
+            <div id="result"> 결과</div>
         </section>
-        <!-- 자바스크립트 위치2 -->
-        <!-- <script>alert("안녕하세요");</script> -->
+
 
     </main>
 </body>
