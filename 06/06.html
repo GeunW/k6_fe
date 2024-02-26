@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K-디지털6기</title>
+    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="06.css">
+
+    <!-- 자바스크립트 위치1 -->
+    <!-- <script>
+        alert("안녕하세요");
+    </script> -->
+
+    <!--자바스크립트 링크  -->
+    <script src="06.js"></script>
+
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1>K-digital 6기 자바스크립트</h1>
+            <div>
+                <a href="../index.html">
+                    홈
+                </a>
+            </div>
+        </header>
+
+        <section>
+            <h1>자바스크립트 주사위 만들기</h1>
+            <div>
+                <div class="img-part">
+                    <div>
+                        <p>player</p>
+                        <img id="dice1" src="./img/1.png" alt="">
+                    </div>
+                    <div>
+                        <p>Computer</p>
+                        <img id="dice2" src="./img/3.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <!-- 버튼에 이벤트 달기 -->
+            <!-- 1. 속성 onclick ,  -->
+            <div>
+                <button class="sel" onclick="handleClick(1)">1</button>
+                <button class="sel" onclick="handleClick(2)">2</button>
+                <button class="sel" onclick="handleClick(3)">3</button>
+                <button class="sel" onclick="handleClick(4)">4</button>
+                <button class="sel" onclick="handleClick(5)">5</button>
+                <button class="sel" onclick="handleClick(6)">6</button>
+            
+            
+            </div>
+            <div id="result"> 결과</div>
+        </section>
+
+
+    </main>
+</body>
+
+</html>
