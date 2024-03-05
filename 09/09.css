@@ -1,0 +1,33 @@
+button{
+    
+    height: 40px;
+    background-color: #005baf;
+    color: #ffffff;
+    border: 0px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: #8a4b04;
+    color: #fce4e4;
+    cursor: pointer;
+}
+
+img{
+    padding: 20px;
+    
+}
+.img-part{
+    display: flex;
+ 
+}
+
+p{
+    text-align: center;
+}
+
+.sel{
+    width: 16%;
+}
