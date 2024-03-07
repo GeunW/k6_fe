@@ -59,3 +59,39 @@ for(let [k,v] of Object.entries(obj)){
     console.log("for ~of : ",k);
     console.log("for ~of : ",v);
 }
+
+let arr3 = [ ];
+//반복문
+for(let item of arr){
+    arr3.push(item);
+}
+console.log("반복문으로 arr3 =",arr3);
+arr3 = arr.map((v)=>{
+    let s = v +'😪';
+    console.log(v,',',s);
+    return arr3;
+});
+
+arr3 = arr.map(v => v+'🙄');
+console.log("map arr3 =", arr3);
+
+//filter
+let arr4 =[];
+for(let item of arr){
+    if(!isNaN(item)) arr4.push(item);
+}
+console.log(arr4);
+//map과 필터
+arr4 = arr.map((v)=>{
+    return isNaN(v);
+});
+console.log("filter arr4 = ",arr4)
+
+arr4 = arr.filter((v)=>{
+    return isNaN(v);
+});
+console.log("filter arr4 = ",arr4)
+
+//전개 연산자
+let arr5 =[...arr];
+console.log("전개 : ",arr5)
